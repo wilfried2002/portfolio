@@ -22,7 +22,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Spécialisé dans le développement d'applications web modernes et l'infrastructure cloud. 
+            Spécialisé dans le développement d applications web modernes et l infrastructure cloud. 
             Je transforme vos idées en solutions robustes et évolutives.
           </p>
         </div>
@@ -66,7 +66,8 @@ export default function Hero() {
           <div className="glass p-8 rounded-2xl hover-glow transition-all duration-300 float-animation" style={{ animationDelay: '0.5s' }}>
             <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-cyan-500 rounded-xl flex items-center justify-center mb-6 neon-glow">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6
+                a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
               </svg>
             </div>
             <h3 className="font-bold text-white mb-4 text-xl">DevOps & Cloud</h3>

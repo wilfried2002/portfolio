@@ -70,7 +70,7 @@ export default function CVPage() {
               </div>
               <ul className="text-gray-300 space-y-2">
                 <li>• Gestion et animation de communautés en ligne</li>
-                <li>• création de contenus stratégiques et optimisation de la présence digitale pour renforcer l’engagement et la notoriété de la marque</li>
+                <li>• création de contenus stratégiques et optimisation de la présence digitale pour renforcer l engagement et la notoriété de la marque</li>
                 <li>• Analyse et reporting des performances des campagnes sociales,</li>
               </ul>
             </div>
@@ -84,10 +84,10 @@ export default function CVPage() {
                 <span className="text-gray-400">Juin 2023 - Juillet 2024</span>
               </div>
               <ul className="text-gray-300 space-y-2">
-                <li>• Développement d'applications de gestion de stock JAVA Swing, MysqlServer</li>
-                <li>• Conception et déploiement d’une infrastructure locale sécurisée pour le partage et la gestion de fichiers</li>
+                <li>• Développement d applications de gestion de stock JAVA Swing, MysqlServer</li>
+                <li>• Conception et déploiement d une infrastructure locale sécurisée pour le partage et la gestion de fichiers</li>
                 <li>• Optimisation des performances et sécurité du site web</li>
-                <li>• suivi des KPI et recommandations stratégiques pour optimiser l’impact digital de la marque</li>
+                <li>• suivi des KPI et recommandations stratégiques pour optimiser l impact digital de la marque</li>
               </ul>
             </div>
 
@@ -100,14 +100,14 @@ export default function CVPage() {
                 <span className="text-gray-400">Août 2024 - présent</span>
               </div>
               <ul className="text-gray-300 space-y-2">
-                <li>• Gestion d'infrastructure cloud multi-environnement</li>
+                <li>• Gestion d infrastructure cloud multi-environnement</li>
                 <li>• Gestion et maintenance des infrastructures réseau et systèmes</li>
                 <li>• Déployer et configurer des serveurs Windows/Linux, Active Directory, services DNS/DHCP, sauvegardes et solutions de virtualisation</li>
-                <li>• Mettre en place des politiques de sécurité, surveiller les incidents réseau, réaliser des audits et appliquer les correctifs pour protéger les données de l’entreprise</li>
+                <li>• Mettre en place des politiques de sécurité, surveiller les incidents réseau, réaliser des audits et appliquer les correctifs pour protéger les données de l entreprise</li>
                 <li>• Fournir un support aux utilisateurs, résoudre les incidents et former le personnel aux bonnes pratiques IT</li>
                 <li>• Concevoir et maintenir des scripts pour automatiser les tâches récurrentes et garantir la sauvegarde automatique des sessions et fichiers utilisateurs vers un serveur de sauvegarde centralisé.</li>
-                <li>• Conception et déploiement d’un logiciel de gestion de présence</li>
-                <li>• Développement d’un logiciel de suivi de livraison client automatisé pour le département logistique</li>
+                <li>• Conception et déploiement d un logiciel de gestion de présence</li>
+                <li>• Développement d un logiciel de suivi de livraison client automatisé pour le département logistique</li>
                 <li>• Maintenance logicielle et matérielle</li>
 
               </ul>
@@ -219,7 +219,7 @@ export default function CVPage() {
           <div className="glass p-12 rounded-2xl border border-gray-700">
             <h2 className="text-3xl font-bold text-white mb-6 neon-text">Télécharger mon CV</h2>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-              Vous pouvez télécharger mon CV complet au format PDF pour une consultation hors ligne ou pour l'envoyer à vos recruteurs.
+              Vous pouvez télécharger mon CV complet au format PDF pour une consultation hors ligne ou pour l envoyer à vos recruteurs.
             </p>
             <button
               onClick={handleDownloadCV}
