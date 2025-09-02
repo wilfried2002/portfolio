@@ -40,7 +40,7 @@ export default function CVPage() {
         {/* Profile Section */}
         <div className="text-center mb-16">
           <ProfilePhoto 
-            src="/profile-photo.jpg" 
+            src="/profile-photo.jpeg" 
             alt="Wilfried Ngankou" 
             size="lg" 
           />
@@ -49,7 +49,7 @@ export default function CVPage() {
           </h1>
           <p className="text-2xl text-cyan-400 mb-6">Développeur Full Stack & Administrateur systèmes et réseau</p>
           <div className="flex flex-wrap justify-center gap-4 text-gray-300">
-            <span>📧 contact@exemple.com</span>
+            <span>📧 ngankouwilfried8@gmail.com</span>
             <span>📱 +237 672518012 / 657166435</span>
             <span>📍 Cameroun</span>
           </div>
@@ -59,37 +59,61 @@ export default function CVPage() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-white mb-8 neon-text">Expérience Professionnelle</h2>
           <div className="space-y-8">
+
             <div className="glass p-8 rounded-2xl hover-glow transition-all duration-300">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Développeur Full Stack Senior</h3>
-                  <p className="text-cyan-400">TechCorp Solutions</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Community Manager</h3>
+                  <p className="text-cyan-400">Dufa - Cameroun</p>
                 </div>
-                <span className="text-gray-400">2022 - Présent</span>
+                <span className="text-gray-400">Octobre 2022 - fevrier 2023</span>
               </div>
               <ul className="text-gray-300 space-y-2">
-                <li>• Développement d'applications web avec React/Next.js et Node.js</li>
-                <li>• Mise en place d'infrastructure cloud AWS et CI/CD</li>
-                <li>• Optimisation des performances et sécurité des applications</li>
+                <li>• Gestion et animation de communautés en ligne</li>
+                <li>• création de contenus stratégiques et optimisation de la présence digitale pour renforcer l’engagement et la notoriété de la marque</li>
+                <li>• Analyse et reporting des performances des campagnes sociales,</li>
               </ul>
             </div>
 
             <div className="glass p-8 rounded-2xl hover-glow transition-all duration-300">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">DevOps Engineer</h3>
-                  <p className="text-cyan-400">CloudTech Industries</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Développeur Full Stack junior</h3>
+                  <p className="text-cyan-400">TKM Gescreen</p>
                 </div>
-                <span className="text-gray-400">2020 - 2022</span>
+                <span className="text-gray-400">Juin 2023 - Juillet 2024</span>
+              </div>
+              <ul className="text-gray-300 space-y-2">
+                <li>• Développement d'applications de gestion de stock JAVA Swing, MysqlServer</li>
+                <li>• Conception et déploiement d’une infrastructure locale sécurisée pour le partage et la gestion de fichiers</li>
+                <li>• Optimisation des performances et sécurité du site web</li>
+                <li>• suivi des KPI et recommandations stratégiques pour optimiser l’impact digital de la marque</li>
+              </ul>
+            </div>
+
+            <div className="glass p-8 rounded-2xl hover-glow transition-all duration-300">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-2">Développeur & Administrateur systèmes et reseau</h3>
+                  <p className="text-cyan-400">MIMOSA</p>
+                </div>
+                <span className="text-gray-400">Août 2024 - présent</span>
               </div>
               <ul className="text-gray-300 space-y-2">
                 <li>• Gestion d'infrastructure cloud multi-environnement</li>
-                <li>• Automatisation des déploiements avec Docker et Kubernetes</li>
-                <li>• Monitoring et alerting avec Prometheus et Grafana</li>
+                <li>• Gestion et maintenance des infrastructures réseau et systèmes</li>
+                <li>• Déployer et configurer des serveurs Windows/Linux, Active Directory, services DNS/DHCP, sauvegardes et solutions de virtualisation</li>
+                <li>• Mettre en place des politiques de sécurité, surveiller les incidents réseau, réaliser des audits et appliquer les correctifs pour protéger les données de l’entreprise</li>
+                <li>• Fournir un support aux utilisateurs, résoudre les incidents et former le personnel aux bonnes pratiques IT</li>
+                <li>• Concevoir et maintenir des scripts pour automatiser les tâches récurrentes et garantir la sauvegarde automatique des sessions et fichiers utilisateurs vers un serveur de sauvegarde centralisé.</li>
+                <li>• Conception et déploiement d’un logiciel de gestion de présence</li>
+                <li>• Développement d’un logiciel de suivi de livraison client automatisé pour le département logistique</li>
+                <li>• Maintenance logicielle et matérielle</li>
+
               </ul>
             </div>
 
-            <div className="glass p-8 rounded-2xl hover-glow transition-all duration-300">
+            {/* <div className="glass p-8 rounded-2xl hover-glow transition-all duration-300">
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Développeur Web</h3>
@@ -102,7 +126,7 @@ export default function CVPage() {
                 <li>• Création d'APIs RESTful avec Express.js</li>
                 <li>• Intégration de bases de données PostgreSQL et MongoDB</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -113,7 +137,7 @@ export default function CVPage() {
             <div className="glass p-6 rounded-xl">
               <h3 className="text-xl font-bold text-white mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
-                {['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Redux', 'GraphQL'].map(skill => (
+                {['Tailwind CSS', 'HTML', 'JavaScript','React', 'Next.js', 'TypeScript'].map(skill => (
                   <span key={skill} className="px-3 py-1 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 text-cyan-400 text-sm rounded-full border border-cyan-400/30">
                     {skill}
                   </span>
@@ -124,7 +148,7 @@ export default function CVPage() {
             <div className="glass p-6 rounded-xl">
               <h3 className="text-xl font-bold text-white mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
-                {['Node.js', 'Python', 'Django', 'PostgreSQL', 'MongoDB', 'Redis'].map(skill => (
+                {['Python', 'Django', 'PostgreSQL', 'SQLSERVER','Node.js' ].map(skill => (
                   <span key={skill} className="px-3 py-1 bg-gradient-to-r from-green-400/20 to-cyan-500/20 text-green-400 text-sm rounded-full border border-green-400/30">
                     {skill}
                   </span>
@@ -135,7 +159,7 @@ export default function CVPage() {
             <div className="glass p-6 rounded-xl">
               <h3 className="text-xl font-bold text-white mb-4">DevOps & Cloud</h3>
               <div className="flex flex-wrap gap-2">
-                {['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'Ansible'].map(skill => (
+                {['AWS', 'Docker'].map(skill => (
                   <span key={skill} className="px-3 py-1 bg-gradient-to-r from-purple-400/20 to-pink-500/20 text-purple-400 text-sm rounded-full border border-purple-400/30">
                     {skill}
                   </span>
@@ -146,7 +170,7 @@ export default function CVPage() {
             <div className="glass p-6 rounded-xl">
               <h3 className="text-xl font-bold text-white mb-4">Outils & Méthodes</h3>
               <div className="flex flex-wrap gap-2">
-                {['Git', 'Agile', 'Scrum', 'Jira', 'Postman', 'VS Code'].map(skill => (
+                {['Git', 'Agile', 'Scrum', 'VS Code', 'Visual studio', 'Netbeans IDE', 'PowerAMC', 'Argo UML','Astah UML'].map(skill => (
                   <span key={skill} className="px-3 py-1 bg-gradient-to-r from-orange-400/20 to-red-500/20 text-orange-400 text-sm rounded-full border border-orange-400/30">
                     {skill}
                   </span>
@@ -162,12 +186,12 @@ export default function CVPage() {
           <div className="glass p-8 rounded-2xl hover-glow transition-all duration-300">
             <div className="flex justify-between items-start mb-4">
               <div>
-                <h3 className="text-xl font-bold text-white mb-2">Master en Informatique</h3>
-                <p className="text-cyan-400">Université de Paris</p>
+                <h3 className="text-xl font-bold text-white mb-2">BTS option Genie logiciel</h3>
+                <p className="text-cyan-400">ISETAG</p>
               </div>
-              <span className="text-gray-400">2016 - 2018</span>
+              <span className="text-gray-400">2022 - 2023</span>
             </div>
-            <p className="text-gray-300">Spécialisation en développement web et systèmes distribués</p>
+            <p className="text-gray-300">Spécialisation en développement Web et Administration systéme et réseau</p>
           </div>
         </section>
 
@@ -177,11 +201,11 @@ export default function CVPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="glass p-6 rounded-xl text-center">
               <h3 className="text-lg font-bold text-white mb-2">Français</h3>
-              <p className="text-cyan-400">Langue maternelle</p>
+              <p className="text-cyan-400">Soutenue</p>
             </div>
             <div className="glass p-6 rounded-xl text-center">
               <h3 className="text-lg font-bold text-white mb-2">Anglais</h3>
-              <p className="text-cyan-400">Courant (TOEIC 950)</p>
+              <p className="text-cyan-400">Moyen</p>
             </div>
             <div className="glass p-6 rounded-xl text-center">
               <h3 className="text-lg font-bold text-white mb-2">Espagnol</h3>

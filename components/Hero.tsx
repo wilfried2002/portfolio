@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="mx-auto max-w-5xl text-center w-full">
         {/* Profile Photo */}
         <ProfilePhoto 
-          src="/profile-photo.jpg" 
+          src="/profile-photo.jpeg" 
           alt="Wilfried Ngankou" 
           size="lg" 
         />

@@ -18,7 +18,7 @@ export default function Competences() {
     {
       title: "Cloud & Services",
       details:
-        "Déploiement sur AWS / Azure, conteneurs Docker, automatisation avec Ansible, intégration CI/CD.",
+        "Déploiement sur les serveurs Cloud Windows Server et Linux , automatisation , intégration CI/CD.",
     },
     {
       title: "Développement & Scripting",

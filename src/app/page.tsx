@@ -27,7 +27,7 @@ export default function HomePage() {
             "Administration systèmes (Windows, Linux, Active Directory, virtualisation)",
             "Administration réseau (VLAN, VPN, routeurs, firewalls, supervision)",
             "Sécurité informatique (politiques, gestion des accès, durcissement, détection d'intrusion)",
-            "Cloud & Services (AWS, Azure, Docker, Ansible, CI/CD)",
+            "Cloud & Services (Windows Server, Linux, automatisation, CI/CD)",
             "Développement & Scripting (Bash, PowerShell, Python)",
             "Support & Supervision (dépannage, monitoring, documentation)"
           ].map((s: string, index: number) => (
@@ -50,13 +50,13 @@ export default function HomePage() {
           <p className="text-gray-300 text-lg mb-8">Ouvert aux collaborations et opportunités.</p>
           <div className="flex flex-wrap justify-center items-center gap-4">
             <a
-              href="mailto:contact@exemple.com"
+              href="mailto:ngankouwilfried8@gmail.com"
               className="group glass px-6 py-3 rounded-xl hover-glow transition-all duration-300 border border-gray-700"
             >
-              <span className="text-cyan-400 group-hover:text-white transition-colors">contact@exemple.com</span>
+              <span className="text-cyan-400 group-hover:text-white transition-colors">ngankouwilfried8@gmail.com</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/ton-profil"
+              href="https://www.linkedin.com/in/wilfried-ngankou-60ba78281/?originalSubdomain=cm"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-gradient-to-r from-cyan-400 to-blue-500 text-black px-6 py-3 rounded-xl font-bold hover-glow transition-all duration-300"
@@ -64,7 +64,7 @@ export default function HomePage() {
               LinkedIn
             </a>
             <a
-              href="https://github.com/ton-github"
+              href="https://github.com/wilfried2002"
               target="_blank"
               rel="noopener noreferrer"
               className="group glass px-6 py-3 rounded-xl hover-glow transition-all duration-300 border border-gray-700"

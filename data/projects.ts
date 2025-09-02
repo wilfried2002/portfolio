@@ -23,4 +23,11 @@ tags: ["Python", "Django", "Mysqllite"],
 href: "https://exemple.com/automarket",
 image: "/projects/p3.jpg",
 },
+{
+title: "Gestion de Presences",
+description: "Application de pointage des présences des employés avec génération de rapports.",
+tags: ["Python", "Django", "Mysqllite"],
+href: "https://exemple.com/automarket",
+image: "/projects/p3.PNG",
+},
 ];
