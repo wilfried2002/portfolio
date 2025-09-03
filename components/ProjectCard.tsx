@@ -1,24 +1,22 @@
-import Image from "next/image";
+import { IconType } from "react-icons";
 
 export interface ProjectProps {
   title: string;
   description: string;
   tags: string[];
   href: string;
-  image: string;
+  icon: IconType; // remplacer image par icon
 }
 
-export default function ProjectCard({ title, description, tags, href, image }: ProjectProps) {
+export default function ProjectCard({ title, description, tags, href, icon: Icon }: ProjectProps) {
   return (
     <div className="group glass rounded-2xl overflow-hidden hover-glow transition-all duration-500 hover:-translate-y-2 border border-gray-700">
-      <div className="relative h-56 overflow-hidden">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover group-hover:scale-110 transition-transform duration-500"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent group-hover:from-black/80 transition-all duration-300"></div>
+      
+      {/* Icon container */}
+      <div className="relative h-56 flex items-center justify-center bg-gray-900">
+        <Icon className="text-cyan-400/80 group-hover:text-cyan-400 text-9xl transition-transform duration-500 group-hover:scale-110" />
+        
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent transition-all duration-300"></div>
         
         {/* Hover overlay with neon effect */}
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
