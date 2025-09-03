@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function IndisponiblePage() {
   const router = useRouter();
@@ -19,12 +20,9 @@ export default function IndisponiblePage() {
       <p className="text-lg mb-6 text-center">
         Ce projet n est pas encore disponible. Vous allez être redirigé vers la page d accueil dans quelques secondes.
       </p>
-      <a
-        href="/"
-        className="px-6 py-3 bg-cyan-400 text-black rounded-lg font-bold hover:bg-cyan-500 transition"
-      >
-        Aller à l accueil
-      </a>
+      <Link href="/" className="px-6 py-3 bg-cyan-400 text-black rounded-lg font-bold hover:bg-cyan-500 transition">
+  Retour à l accueil
+</Link>
     </div>
   );
 }
