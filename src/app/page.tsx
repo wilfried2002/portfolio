@@ -5,6 +5,8 @@ import Hero from "../../components/Hero";
 import Section from "../../components/Section";
 import ProjectCard, { ProjectProps } from "../../components/ProjectCard";
 import { projects } from "../../data/projects";
+import Certifications from "../../components/Certifications";
+import { certifications } from "../../data/certifications";
 
 
 export default function HomePage() {
@@ -43,6 +45,10 @@ export default function HomePage() {
             </div>
           ))}
         </div>
+      </Section>
+
+      <Section id="certifications" title="Certifications">
+        <Certifications items={certifications} />
       </Section>
 
       <Section id="contact" title="Contact" className="gradient-bg">

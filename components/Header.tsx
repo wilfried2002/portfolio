@@ -38,6 +38,15 @@ export default function Header() {
               Compétences
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </button>
+
+            <button
+              onClick={() => scrollToSection("certifications")}
+              className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 relative group"
+            >
+              Mes certifications
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+            </button>
+
             <button
               onClick={() => scrollToSection("contact")}
               className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 relative group"
@@ -45,6 +54,7 @@ export default function Header() {
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </button>
+            
             <a
               href="/cv"
               className="bg-gradient-to-r from-cyan-400 to-blue-500 text-black px-4 py-2 rounded-lg font-medium hover-glow transition-all duration-300"
@@ -104,6 +114,12 @@ export default function Header() {
                 className="text-left text-gray-300 hover:text-cyan-400 transition-colors"
               >
                 Contact
+              </button>
+              <button
+                onClick={() => scrollToSection("certifications")}
+                className="text-left text-gray-300 hover:text-cyan-400 transition-colors"
+              >
+                Mes certifications
               </button>
               <a
                 href="/cv"
